@@ -49,7 +49,7 @@ git add .
 git commit -m 'initial commit'
 ```
 
-Deploy to Heroku.
+Deploy to Heroku. The first deploy could take a minute or two.
 ```
 git push heroku master
 ```
