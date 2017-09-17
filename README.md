@@ -1,6 +1,8 @@
 # Express / Create React App Starter
 
-Starter project to easily bootstrap a React app served up with Express.
+Starter project to easily bootstrap a React app served up with Express.  
+
+Demo: [https://express-cra-starter.herokuapp.com/](https://express-cra-starter.herokuapp.com/)
 
 ## Getting Started
 
