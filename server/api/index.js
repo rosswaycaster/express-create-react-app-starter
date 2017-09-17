@@ -5,7 +5,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/hello', (req, res) => {
-  res.json({
+  res..status(200).json({
     name: 'World'
   });
 });
