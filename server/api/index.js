@@ -5,7 +5,9 @@ router.get('/', (req, res) => {
 });
 
 router.get('/hello', (req, res) => {
-  res.json({name: 'World'});
+  res.json({
+    name: 'World'
+  });
 });
 
 module.exports = router;

@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-  state = {
-    name: ''
+  constructor() {
+    super();
+    this.state = {
+      name: ''
+    };
   }
 
   componentWillMount() {
@@ -12,19 +15,21 @@ class App extends Component {
       .then(result => {
         this.setState({
           name: result.name
-        })
-      })
+        });
+      });
   }
 
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Hello {this.state.name}!</h2>
+          Hello {this.state.name}!
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h2>Server</h2>
+        <p>Edit <code>server/api/index.js</code> to return your name and reload this page.</p>
+        <br />
+        <h2>Client</h2>
+        <p>This page lives at <code>client/src/App.js</code></p>
       </div>
     );
   }
