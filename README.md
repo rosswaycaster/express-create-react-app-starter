@@ -1,10 +1,10 @@
 # Express / Create React App Starter
 
-Starter project to easily bootstrap a React app served up through Node.js with Express.
+Starter project to easily bootstrap a React app served up with Express.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development purposes. See deployment for notes on how to deploy the project to Heroku.
+These instructions will get you a copy of the project up and running on your local machine for development purposes. See Deployment for notes on how to deploy the project to Heroku.
 
 ## Installing
 
