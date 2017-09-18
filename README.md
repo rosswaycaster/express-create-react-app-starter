@@ -83,5 +83,6 @@ This project is licensed under the [GNU General Public License v3.0](https://www
 
 - [Express](http://expressjs.com/)
 - [Create React App](https://github.com/facebookincubator/create-react-app)
+- [custom-react-scripts](https://github.com/kitze/custom-react-scripts)
 - [Heroku](https://heroku.com)
 - [Hack Reactor](https://hackreactor.com)
