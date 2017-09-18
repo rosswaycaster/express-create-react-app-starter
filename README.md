@@ -33,7 +33,7 @@ This will start the client at http://localhost:3000 which will proxy the api ser
 npm start
 ```
 
-## Deployment
+## Deploy to Heroku
 
 Once you deploy to Heroku it will build and serve your React app without the need for a proxy.
 
@@ -53,6 +53,22 @@ Deploy to Heroku. The first deploy could take a minute or two.
 ```
 git push heroku master
 ```
+
+## Deploy somewhere else
+
+Follow the steps below to build and serve your React app without the need for a proxy. All commands should be executed in the root directory.
+
+Build the React application.
+```
+npm run build
+```
+***Transfer the files to your server.***
+
+Once on the server start node and optionally specify the port.
+```
+PORT=3000 node server
+```
+
 
 
 ## Authors
