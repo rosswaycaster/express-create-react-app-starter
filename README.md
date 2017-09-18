@@ -19,6 +19,7 @@ git clone https://github.com/rosswaycaster/express-create-react-app-starter.git 
 [Create an empty GitHub repo](https://github.com/new) to store your project & run this command to set the *origin* to ***your repo***. Be sure to edit the url with your username and repo slug.
 ```
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+git push origin master
 ```
 
 Install all dependencies with one command.
