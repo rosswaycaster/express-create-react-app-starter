@@ -1,4 +1,4 @@
-# Express / Create React App Starter
+# 🚀 Express / Create React App Starter
 
 Starter project to easily bootstrap a React app served up with Express. Also uses [custom-react-scripts](https://github.com/kitze/custom-react-scripts) to add optional support for ES6 decorators, SASS/SCSS, LESS, Stylus, & CSS modules without needing to eject out of Create React App.
 
