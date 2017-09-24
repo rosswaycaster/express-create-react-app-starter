@@ -2,8 +2,12 @@ const express = require('express');
 const path = require('path');
 const http = require('http');
 const api = require('./api');
+const bodyParser = require('body-parser');
 
 const app = express();
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static(path.join(__dirname, '../client/build')));
 
